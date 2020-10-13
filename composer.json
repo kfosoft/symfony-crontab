@@ -1,0 +1,21 @@
+{
+    "name": "kfosoft/symfony-crontab",
+    "description": "Symfony Crontab",
+    "license": "MIT",
+    "keywords": ["symfony", "extension", "crontab"],
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Kyrylo Checherskyi",
+            "email": "kyrylo.checherskyi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "kfosoft/cron-expression": "^20.10",
+        "kfosoft/symfony-daemonizable-command": "^20.10"
+    },
+    "autoload": {
+        "psr-4": {"KFOSOFT\\": ""}
+    }
+}
